@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.replica-success {
+  margin-top: 16px;
+  padding: 12px 14px;
+  border: 1px solid #ceb284;
+  border-radius: 4px;
+  color: #6f5835;
+  background: #fbf7ef;
+  font: 14px/1.5 Montserrat, Arial, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
